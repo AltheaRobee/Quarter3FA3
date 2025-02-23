@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;700&display=swap');
+
+body 
+{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #1c1c1c;
+    color: #fff;
+    background-image: url('https://www.transparenttextures.com/patterns/dark-mosaic.png');
+}
+
+.container 
+{
+    width: 70%;
+    margin: 50px auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    border: 3px solid #4CAF50;
+}
+
+h1 
+{
+    color: #FFD700;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 10px rgba(255, 215, 0, 0.7);
+}
+
+p 
+{
+    font-size: 1.3em;
+    color: #ddd;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 15px 0;
+    box-shadow: 0px 2px 5px rgba(255, 215, 0, 0.2);
+}
+
+.story-intro, .story-outro 
+{
+    font-style: italic;
+    color: #FFEB3B;
+}
+
+.highlight 
+{
+    font-weight: bold;
+    color: #D32F2F;
+}
+
+@media screen and (max-width: 768px) 
+{
+    .container 
+    {
+        width: 90%;
+        padding: 20px;
+    }
+}
